@@ -1,0 +1,63 @@
+#listaPracticas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 200%;
+    background-color: #2647a0;
+    /*font-family: 'Yatra One', cursive;*/
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-left:10%;
+    
+    /*display:none;*/
+   
+}
+
+#listaPracticas > li a {
+    display: block;
+    color: #dfdfdf;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+
+#listaPracticas > li a:hover {
+    background-color: #6d9dc5;
+    color: #aeecef;
+}
+
+#modificado{
+    padding-top:235%;
+    
+}
+
+html, body{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #f5f5dc;
+}
+
+#inicio{
+    border-bottom: 2px white solid;
+}
+
+#ultimo{
+    border-bottom: 2px white solid;
+}
+
+@font-face {
+  font-family: 'MyWebFont';   
+  src: url('../fonts/myfont.ttf')  format('truetype');
+}
+
