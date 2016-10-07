@@ -2,7 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 20%;
     background-color: #c62828;
     /*font-family: 'Yatra One', cursive;*/
     font-family: 'MyWebFont', Fallback, sans-serif;
@@ -23,8 +23,12 @@
 }
 
 h2{
-  margin-left:20%;
-  margin-bottom:5%;  
+    margin-left:20%;
+    margin-bottom:5%;
+    left:0px;
+    right:0px;
+    background-color: #ef6c00;
+    color: #ffb74d; 
 }
 
 
