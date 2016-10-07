@@ -1,4 +1,4 @@
-#listaPracticas {
+.lista-practicas {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@
    
 }
 
-#listaPracticas > li a {
+.lista-practicas > ol > li a {
     display: block;
     color: #dfdfdf;
     padding: 8px 16px;
@@ -28,7 +28,7 @@
 }
 
 
-#listaPracticas > li a:hover {
+.lista-practicas > ol > li a:hover {
     background-color: #6d9dc5;
     color: #aeecef;
 }
