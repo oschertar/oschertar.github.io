@@ -12,8 +12,11 @@
 		var numero =prompt("Introduce los 8 números del DNI.");
 		var letra = prompt("Introduce la letra del DNI.");
 		letra = letra.toUpperCase();
+		if(numero.length !==0){
+			alert("El número introducido no es válido.");
+		}
 		if(numero <0|| numero >99999999){
-			alert("El número proporcionado no es válido.");
+			alert("El número introducido no es válido.");
 		}else{
 			var letraCalculada = letras[numero %23];
 			if(letraCalculada != letra){
