@@ -26,11 +26,11 @@
 						<nav id="nav">
 							
 							<ul>
-								<li><a href="index.html"  class="skel-layers-ignoreHref"><span class="icon fa-home">Inicio</span></a></li>
-
+								<li><a href="#index"  class="skel-layers-ignoreHref"><span class="icon fa-home">Inicio</span></a></li>
 								<li><a href="#listadobasico1"  class="skel-layers-ignoreHref"><span class="icon fa-folder-open-o">Listado Básico 1</span></a></li>
 								<li><a href="#practica2" class="skel-layers-ignoreHref"><span class="icon fa-folder-open-o">Practica 2</span></a></li>
 								<li><a href="#listadodearrays"  class="skel-layers-ignoreHref"><span class="icon fa-folder-open-o">Listado de Arrays</span></a></li>
+								<li><a href="#listadodate"  class="skel-layers-ignoreHref"><span class="icon fa-folder-open-o">Listado Date</span></a></li>
 								
 							</ul>
 						</nav>
@@ -52,7 +52,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Prácticas de JavaScript</h2>
+								<h2 class="alt" id="index">Prácticas de JavaScript</h2>
 								
 							</header>
 
@@ -116,6 +116,20 @@
 								<li><a href="ejercicios/javascript/listadoArrays/metodoMasEficiente.html">Averigua qué método es el más eficiente para manejarse con arrays.  Compruébalo mediante performance.now() o similares:<br/>
 						        </a></li>
 							</ol>
+
+							<h3 id="listadodate">Listado Date</h3>
+								<ol>
+									<li>¿Cuántos constructores tiene el objeto predefinido Date()? Explícalos mediante ejemplos.</li>
+									<li>Indica la utilidad de Date.now();</li>
+									<li>Indica el formato del parámetro cadena del método Date.parse().</li>
+									<li>Implementa el método esFecha() que devuelva si el argumento es una fecha o no.</li>
+									<li>Crea el método incrementaDias() que incremente/decremente los días indicados. Admitirá como primer argumento un entero positivo/negativo que reperesente el número de días. El resto de argumentos representarán una fecha, similar a los argumentos del constructor Date(). </li>
+									<li>Implementa el método diaDeLaSemana() que devuelva 'lunes, martes... domingo' del día actual o de la fecha indicada (similar al constructor)</li>
+									<li> Implementa el método esBisiesto() que devuelva si una fecha/año es bisiesto o no. En caso de que el argumento no sea una fecha, que salte una excepción. Admitirá tantos parámetros como el constructor Date(). Pruébalo con varias invocaciones fallidas (y capturadas)</li>
+									<li>Implementa el método calcularEdad() que devuelva la edad indicando la fecha de nacimiento.  En caso de tener menos de un año, indicar días y meses transcurridos. Indicar errores.</li>
+									<li>Implementa el método calcularHastaFinDeAnno() que devuelva los días que quedan hasta fin de año</li>
+								
+								</ol>
 						</div>
 					</section>
 
