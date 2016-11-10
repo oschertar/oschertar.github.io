@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Óscar Heredia Tartajo. Listado de Arrays</title>
+	<script type="text/javascript" src="js/operadorIn.js"></script>
+</head>
+<body>
+	<h1>Listado arrays en JavaScript. Óscar Heredia Tartajo</h1>
+	<h3>2. Indica la utilidad del operador in con los arrays. Demuestra su uso mediante un ejemplo.</h3>
+	<p>El operador in devuelve true o false si la propiedad que estamos especificando está o no en el array. Cuando hablamos de índices podemos comprobar si un índice está en el array o no. Si hablamos de arrays con propiedades, podemos comprobar si dicho array posee esa propiedad.</p>
+	
+	Ejemplo: <br/>
+
+	let animales = ["perro", "gato", "ardilla", "tortuga"];<br/>
+	0 in animales      // devuelve true<br/>
+	3 in animales      // devuelve true<br/>
+	6 in animales      // devuelve false<br/>
+	<br/>
+	"length" in animales // devuelve true (es una propiedad que los Arrays poseen)<br/>
+	<br/>
+	let movil = {marca: "Xiaomi", modelo: "Note 3 Pro", camara: "Samsung", añoFabricacion: 2016};<br/>
+	"marca" in movil  // devuelve true<br/>
+	"modelo" in movil // devuelve true<br/>
+	"tecnologia" in movil // devuelve false<br/>
+	<noscript>Tu navegador no soporta código JavaScript. Por favor, actívalo.</noscript>
+</body>
+</html>
