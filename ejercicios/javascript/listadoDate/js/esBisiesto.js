@@ -1,26 +1,22 @@
 {
-	let diaDeLaSemana = function(anno, mes, dia, horas, minutos, segundos){
-		let semana = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado"];
-		let fecha = new Date(anno, mes-1, dia, horas, minutos, segundos);
-		return semana[fecha.getDay()];
+	function comprobarFecha(cadena) {
+    	let a = new Date(cadena);
+		if(a == "Invalid Date") {
+        	return "La Fecha no es Válida";
+   		} else {
+        	let anno = a.getFullYear();
 
 
-		
-		
-	}	
+        	if( ((anno % 4 == 0) && ((anno % 100 != 0) || (anno % 400 == 0)) )) {
+           		return "Es un año bisiesto";
+        	} else {
+            	return "No es un año bisiesto";
+       		}
+    	}
+	}
 
-	console.log("Día de la semana para 10 de Noviembre de 2016: " + diaDeLaSemana(2016, 11, 10, 12, 0, 0));
+	console.log("Año bisiesto 2016: " + comprobarFecha("Nov 10, 2016"));
 
-	
-	
-	
-
-
-
-	
-
-	
-	
 	
 	  
 
