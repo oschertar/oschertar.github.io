@@ -1,0 +1,32 @@
+h1, h2{
+	text-align: center;
+}
+
+body{
+	background-image: url(../img/fondocrearfactura.png);
+	background-size: 100%;
+}
+#general{
+	width:70%;
+	border: 5px solid black;
+	border-radius: 5px;
+	margin: 0 auto;
+	height: auto;
+	
+}
+#cliente, #elementos{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px 50px 50px 25px;
+	margin-top: 10px;
+	
+}
+
+#cajaEnviar{
+	text-align: center;
+	margin-top: 10px;
+}

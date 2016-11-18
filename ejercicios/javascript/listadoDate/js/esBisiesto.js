@@ -1,5 +1,5 @@
 {
-	function comprobarFecha(cadena) {
+	let esBisiesto = function(cadena) {
     	let a = new Date(cadena);
 		if(a == "Invalid Date") {
         	return "La Fecha no es Válida";
@@ -15,10 +15,9 @@
     	}
 	}
 
-	console.log("Año bisiesto 2016: " + comprobarFecha("Nov 10, 2016"));
+	console.log("Año bisiesto 2016: " + esBisiesto("Nov 10, 2016"));
 
 	
-	  
 
 
 	  

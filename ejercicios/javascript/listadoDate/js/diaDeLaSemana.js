@@ -9,7 +9,7 @@
 		
 	}	
 
-	console.log("Día de la semana para 10 de Noviembre de 2016: " + diaDeLaSemana(2016, 11, 10, 12, 0, 0));
+	console.log("Día de la semana para 11 de Noviembre de 2016: " + diaDeLaSemana(2016, 11, 11, 12, 0, 0));
 
 	
 	

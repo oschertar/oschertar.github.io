@@ -1,0 +1,44 @@
+h1, h2{
+	text-align: center;
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+}
+
+#cliente, #elementos{
+	width: 50%;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px 50px 50px 25px;
+	margin-top: 10px;
+}
+
+
+
+h4{
+	display: inline;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+
+table{
+	width:100%;
+	border: 2px solid black;
+}
+td{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+th{
+	border-bottom: 3px solid black;
+}
+
+#total{
+	font-size: 32px;
+}
