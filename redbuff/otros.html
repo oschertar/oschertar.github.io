@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Red Buff</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/otros.css">
+	<script type="text/javascript" src="js/canvas.js"></script>
+</head>
+<body>
+	<header>
+		<img src="img/logo.png" alt="Logo Principal">
+	</header>
+	<nav>
+		<ul>
+			<a href="index.html"><li><object id="iconomenu" data="img/home.svg" type="image/svg+xml"></object> Inicio</li></a>
+			<a href=""><li><object id="iconomenu" data="img/user-group.svg" type="image/svg+xml"></object> Campeones</li></a>
+			<a href=""><li><object id="iconomenu" data="img/store.svg" type="image/svg+xml"></object> Objetos</li></a>
+			<a href=""><li><object id="iconomenu" data="img/crosshair.svg" type="image/svg+xml"></object> Estrategias</li></a>
+			<a href="otros.html"><li class="selected"><object id="iconomenu" data="img/mail.svg" type="image/svg+xml"></object> Otros</li></a>
+		</ul>
+	</nav>
+	<div id="container">
+		<main>
+			<div id="sobremi">
+					<h2>Sobre Mi</h2>
+						<div>
+						<div id="foto"></div>
+							<p>Mi nombre es Óscar Heredia Tartajo y actualmente estoy cursando el Ciclo Superior de Desarrollo de Aplicaciones Web (2º Año). </p>
+						</div>
+
+			</div>
+			<div id="contacto">
+				<h2>Contacto</h2>
+					<form>
+						<p>Nombre</p>
+						<input type="text" required placeholder="Introduce tu nombre" id="nombre" name="nombre"/>
+						<p>Email</p>
+						<input type="email"  required placeholder="Introduce tu email" id="email" name="email"/>
+						<p id="mensaje">Mensaje</p>
+						<textarea cols=50% rows=6 name="mensaje"  required placeholder="Introduce tu mensaje aquí"></textarea>
+						<input type="submit" id="enviar" value="Enviar">
+					
+					</form>
+
+			</div>
+			<canvas id="micanvas" height="100px" width="950px"></canvas>
+		</main>
+
+		<aside>
+		<div id="redessociales">
+			<div id="facebook" class="logoredessociales"></div>
+			<div id="twitter" class="logoredessociales"></div>
+		</div>
+		<div id="noticias">
+			<h3>Últimas noticias</h3>
+			<ul>
+				<li><a href="">Ya disponible la beta del cliente actualizado</a></li>
+				<li><a href="">Actualización de habilidades: Shyvana</a></li>
+				<li><a href="">¡El modo de juego de esta semana ha rotado!</a></li>
+				<li><a href="">¡Conoced a los All-Stars 2016!</a></li>
+				<li><a href="">Pregúntale a Riot: Mejorar a Kalista</a></li>
+				<li><a href="">Calendario de ofertas de diciembre</a></li>
+				<li><a href="">El ataque de los poros demoníacos</a></li>
+				<li><a href="">Pregúntale a Riot: League en la gran pantalla</a></li>
+
+			</ul>
+		</div>
+		<div id="gratuitos">
+			<h3>Personajes Gratuitos</h3>
+			<div id="gratuitos">
+				<div id="campeon1" class="campeones"></div>
+				<div id="campeon2" class="campeones"></div>
+				<div id="campeon3" class="campeones"></div>
+				<div id="campeon4" class="campeones"></div>
+				<div id="campeon5" class="campeones"></div>
+				<div id="campeon6" class="campeones"></div>
+			</div>
+		</div>
+		</aside>
+
+		<footer>&copy; 2016 - Práctica 9 - Óscar Heredia Tartajo</footer>
+	</div>
+</body>
+</html>

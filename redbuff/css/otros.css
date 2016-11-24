@@ -1,0 +1,106 @@
+p{
+	text-align:right;
+}
+
+
+textarea{
+	margin-left: 50px;
+}
+
+td{
+	width:50%;
+}
+
+
+#contacto, #sobremi{
+	width: 90%;
+	margin: 20px auto;
+	padding: 15px;
+	border: 4px solid white;
+	background-color: #505050;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px white;
+}
+
+form > *{
+	display:inline-block;
+}
+#enviar{
+	display:block;
+	margin: 0 auto;
+}
+
+#mensaje{
+	display:block;
+	text-align: center;
+
+}
+
+textarea{
+	resize: none;
+}
+
+#micanvas{
+	margin: 20px auto;
+	border: 4px solid white;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px white;
+	animation-name: animacion;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animacion {
+	10%{
+		transform: translateY(-15px);
+	}
+
+	30%{
+		transform: translateY(-5px);
+	}
+	
+	50%{
+		transform: translateY(0px);
+	}
+	70%{
+		transform: translateY(5px);
+	}
+	90%{
+		transform: translateY(15px);
+	}
+}
+
+input[required]{
+	border-color:green;
+	box-shadow: 0px 0px 5px green;
+}
+
+input:invalid{
+	border-color:red;
+	box-shadow: 0px 0px 50px red;
+	border-radius: 0px 5px 0px 5px;
+}
+
+#foto{
+	background-image: url(../img/mifoto.jpg);
+	background-repeat: no-repeat;
+	width: 117px;
+	height: 170px;
+	background-position: center;
+	align-content: center;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 15px;
+}
+
+
+
+p{
+	text-align: center;
+}
+
+
+
+
