@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestor de Tareas. Óscar Heredia Tartajo</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/calendario.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/listaTareas.css">
+
+	
+	
+  	
+</head>
+<body>
+	
+	<div id="container">
+	
+			<header>
+				<div id="logo"><img src="img/folder.svg" alt=""></div>
+				<h1>Gestor de Tareas</h1>
+				<div id="login">
+					<label>Usuario</label><input type="text">
+					<label>Contraseña</label><input type="password">
+					<input type="submit" value="Login" id="botonLogin">
+				</div>
+			</header>
+		<div id="contenedorMenu">
+			
+			<nav id="menuprincipal">
+				<ul>
+					<li id="redondeadoIzquierdo"><a href="index.html">Inicio</a></li><li><a href="annadirTarea.html">Añadir tareas</a></li><li class="selected" id="redondeadoDerecho"><a href="listaTareas.html">Lista tareas</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="contenido">
+			<main>
+				<h3>Lista de tareas</h3>
+				<section>
+					<article>
+						<h4>Terminar práctica 11</h4>
+						<time class="duracion">5 horas</time>
+						<h5>DIWEB</h5>
+						<p>Queda por terminar la parte de listar las tareas y modificar los estilos de dicha página.</p>
+						<time>07/12/2016</time>
+						<input class="primerBoton" type="button" value="Modificar ">
+						<input type="button" value="Terminada ">
+						<input type="button" value="Eliminar ">
+					</article>
+				</section>
+				<section>
+					<article>
+						<h4>Configurar IA</h4>
+						<time class="duracion">4 horas</time>
+						<h5>HLC</h5>
+						<p>Configurar la inteligencia articial de nuestra máquina en el Conecta 4.</p>
+						<time>12/12/2016</time>
+						<input class="primerBoton" type="button" value="Modificar ">
+						<input type="button" value="Terminada ">
+						<input type="button" value="Eliminar ">
+					</article>
+				</section>
+				<section>
+					<article>
+						<h4>Cuestionarios Cookies</h4>
+						<time class="duracion">1 hora</time>
+						<h5>DAWEC</h5>
+						<p>Hacer los 4 cuestionarios sobre las Cookies y preguntar dudas en el siguiente día de clase.</p>
+						<time>09/12/2016</time>
+						<input class="primerBoton" type="button" value="Modificar ">
+						<input type="button" value="Terminada ">
+						<input type="button" value="Eliminar ">
+					</article>
+				</section>
+				<div id="paginas">
+					<input type="button" value="< ">
+					<input type="button" value="1 ">
+					<input type="button" value="2 ">
+					<input type="button" value="3 ">
+					<input type="button" value="... ">
+					<input type="button" value="6 ">
+					<input type="button" value="> ">
+				</div>
+			</main>
+			<aside>
+				<div id="filtro">
+				<h3>Filtro</h3>
+				<h4>Módulo</h4>
+
+				<form>
+					<table>
+						<tr>
+							<td><input type="checkbox" name="diweb" id="diweb"></td>
+							<td><label>DIWEB</label></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="dawes" id="dawes"></td>
+							<td><label>DAWES</label></td>
+						</tr>	
+						<tr>
+							<td><input type="checkbox" name="php" id="php"></td>
+							<td><label>DAWEC</label></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="daweb" id="daweb"></td>
+							<td><label>DAWEB</label></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="hlc" id="hlc"></td>
+							<td><label>HLC</label></td>
+						</tr>
+					</table>
+
+				</form>
+				
+				<h4>Ordenar</h4>
+				
+					<ul>
+						<li><a href="">Por duración estimada ascendente(menor a mayor)</a></li>
+						<li><a href="">Por duración estimada descendente(mayor a menor)</a></li>
+						<li><a href="">Fecha de entrega más cercana</a></li>
+						<li><a href="">Fecha de entrega más lejana</a></li>
+					</ul>
+					
+				
+				</div>
+			</aside>
+			<footer>Práctica 11 - Realizada por Óscar Heredia Tartajo</footer>
+		</div>
+	</div>
+</body>
+</html>

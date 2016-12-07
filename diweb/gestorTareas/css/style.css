@@ -1,0 +1,234 @@
+/* Fuentes */
+@font-face{
+	font-family: ChocolateCoveredRegular;
+	src: url(fonts/ChocolateCoveredRaindropsRegular.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ChocolateCoveredBold;
+	src: url(fonts/ChocolateCoveredRaindropsBOLD.ttf) format('truetype');
+}
+
+
+
+h1, h3, h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1{
+	text-shadow: 5px 1px 5px #FF8138;
+}
+
+h3, h2{
+	text-shadow: 5px 2px 5px #FF8138;
+	font-family: ChocolateCoveredBold;
+}
+
+
+p{
+	font-family: ChocolateCoveredBold;
+}
+
+body{
+	font-family: ChocolateCoveredRegular;
+	font-size: 40px;
+	
+	background: url(../img/fondo.png) ;
+	background-repeat: no-repeat;
+	background-color: #fa955a;
+	background-attachment: fixed;
+	background-size: 100%;
+	
+}
+
+main{
+	width: 60%;
+	padding: 20px;
+	background-color: #187FD2;
+	border-radius: 15px;
+	margin: 20px 0 20px 20px;
+	border: 2px solid #fa955a;
+	text-align: center;
+}
+
+main>p{
+	font-size: 27px;
+	font-family: ChocolateCoveredBold;
+}
+
+main,aside{
+	display: inline-block;
+}
+
+aside{
+	width: 31%;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+footer{
+	font-family: ChocolateCoveredBold;
+	width: 93%;
+	padding: 10px;
+	text-align: center;
+	margin: 5px auto;
+	border-radius: 15px;
+	border: 3px solid #fa955a;
+	background-color: #187FD2;
+
+}
+
+
+#logo{
+	width: 13%;
+	position: absolute;
+	top: 0;
+	left: 15.5%;
+}
+
+#login{
+	width: 14%;
+	height: 21%;
+	position: absolute;
+	top:0.5%;
+	right: 15%;
+	font-size: 26px;
+	text-align: center;
+	border: 3px solid #fa955a;
+	background: #fa955a;
+	border-radius: 5px;
+}
+
+
+
+#login > *{
+	display:block;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 19px;
+}
+
+#botonLogin{
+	margin-top: 7.5px;
+}
+
+
+#contenedorMenu{
+	width: 55%;
+	margin: 0 auto;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background-color: #5abffa;
+	opacity: 0.85;
+	border-radius: 20px 20px 0 0;
+	border-bottom: 2px solid #1996FC;
+}
+
+#container{
+	width: 72.5%;
+	margin: 0 auto;
+	background-color: #187FD2;
+	border-radius: 5px 5px 0 0;
+	
+}
+
+
+#menuprincipal ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #187FD2;
+}
+
+
+
+#menuprincipal ul li{
+	display: inline-block;
+	width: 28.775%;
+	padding: 10px;
+	padding-right: 14px;
+	font-size: 30px;
+	letter-spacing: 1%;
+	transition: 1s all;
+	background-color: #5abffa;
+}
+
+#menuprincipal ul li:hover, #menuprincipal ul li.selected:hover{
+	background-color: #fa955a;
+	transition: 1s;
+	
+}
+
+#redondeadoIzquierdo{
+	border-radius: 20px 0 0 0;
+}
+
+#redondeadoDerecho{
+	border-radius: 0 20px 0 0;
+}
+
+#menuprincipal ul li.selected{
+	background-color: rgba(180,90,38,0.85);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	display: inline-block;
+}
+
+
+#contenido{
+	width: 100%;
+	background-color: #5abffa;
+	opacity: 0.85;
+	border-radius: 10px 10px 0 0;
+	padding-bottom: 10px
+	
+}
+
+
+
+
+#calendario{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	font-size: 25px;
+
+}
+
+#buscarTarea{
+	width: 82%;
+	margin: 20px auto;
+	border-radius: 15px;
+	border: 3px solid #fa955a;
+	background-color: #187FD2;
+}
+#buscar{
+	width: 80%;
+	font-size: 17px;
+	margin-left: 5px;
+}
+
+#iconoLupa{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

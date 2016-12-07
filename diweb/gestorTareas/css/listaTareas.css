@@ -1,0 +1,85 @@
+table{
+	margin: 0 auto;
+}
+
+h3,h4, h5{
+	margin: 0;
+	padding: 0;
+}
+h4{
+	font-family: ChocolateCoveredBold;
+	display: inline-block;
+	width: 50%;	
+}
+
+aside ul{
+	font-family: ChocolateCoveredRegular;
+	font-size: 28px;
+	list-style: none;
+	margin-left: -35px;
+}
+
+aside ul li{
+	margin-top: 4px;
+}
+
+section{
+	text-align: justify;
+	background-color: #50B5F4;
+	border-radius: 15px;
+	border: 2px solid #fa955a;
+	padding: 10px;
+	margin-bottom: 15px;
+	transition: 1s all;
+}
+
+section:hover{
+	border: 2px solid rgba(180,90,38,0.85);
+	box-shadow: 7px 10px 5px black;
+	transition: 1s;
+}
+
+#filtro{
+	background-color: #187FD1;
+	border-radius: 15px;
+	border: 2px solid #fa955a;
+	padding: 10px;
+	margin-top: -5px;
+}
+
+
+
+.duracion{
+	width: 15%;
+	margin-left: 32.5%;
+	display: inline-block;
+}
+
+p{
+	font-family: ChocolateCoveredRegular;
+	font-size: 27px;
+	width: 90%;
+}
+
+time, #menuAccionesTarea{
+	display: inline-block;
+}
+
+time{
+	width:20%;
+}
+
+main input{
+	font-size: 28px;
+	font-family: ChocolateCoveredRegular;
+
+}
+
+
+
+.primerBoton{
+	margin-left: 27%;
+}
+
+
+

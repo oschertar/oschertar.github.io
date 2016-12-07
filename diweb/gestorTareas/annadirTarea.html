@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestor de Tareas. Óscar Heredia Tartajo</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/calendario.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/annadirTarea.css">
+	
+	<script type="text/javascript" src="js/calendario.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	
+</head>
+<body>
+	
+	<div id="container">
+	
+			<header>
+				<div id="logo"><img src="img/folder.svg" alt=""></div>
+				<h1>Gestor de Tareas</h1>
+				<div id="login">
+					<label>Usuario</label><input type="text">
+					<label>Contraseña</label><input type="password">
+					<input type="submit" value="Login" id="botonLogin">
+				</div>
+			</header>
+		<div id="contenedorMenu">
+			
+			<nav id="menuprincipal">
+				<ul>
+					<li id="redondeadoIzquierdo"><a href="index.html">Inicio</a></li><li class="selected"><a href="annadirTarea.html">Añadir tareas</a></li><li id="redondeadoDerecho"><a href="listaTareas.html">Lista tareas</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="contenido">
+			<main>
+			<h3>Añadir Tarea</h3>
+			<form>
+			<table>
+				<tr>
+					<td><label>Título: </label></td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Módulo: </label></td>
+					<td><select>
+						<option value="">-ELIGE-</option>
+						<option value="diweb">DIWEB</option>
+						<option value="dawes">DAWES</option>
+						<option value="dawec">DAWEC</option>
+						<option value="daweb">DAWEB</option>
+						<option value="hlc">HLC</option>
+
+					</select></td>
+				</tr>
+				<tr>
+					<td><label>Descripción: </label></td>
+					<td><textarea></textarea></td>
+				</tr>
+				
+				<tr>
+					<td><label>Fecha de envío: </label></td>
+					<td><input type='date'></td>
+				</tr>
+				<tr>
+					<td><label>Fecha de entrega: </label></td>
+					<td><input type='date'></td>
+				</tr>
+				<tr>
+					<td><label>Duración estimada: </label></td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Otros comentarios: </label></td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Enviar" id="enviar"></td>
+				</tr>
+			</table>
+			</form>
+			</main>
+			
+			<footer>Práctica 11 - Realizada por Óscar Heredia Tartajo</footer>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestor de Tareas. Óscar Heredia Tartajo</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/calendario.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/calendario.js"></script>
+</head>
+<body>
+	
+	<div id="container">
+	
+			<header>
+				<div id="logo"><img src="img/folder.svg" alt=""></div>
+				<h1>Gestor de Tareas</h1>
+				<div id="login">
+					<label>Usuario</label><input type="text">
+					<label>Contraseña</label><input type="password">
+					<input type="submit" value="Login" id="botonLogin">
+				</div>
+			</header>
+		<div id="contenedorMenu">
+			
+			<nav id="menuprincipal">
+				<ul>
+					<li class="selected" id="redondeadoIzquierdo"><a href="index.html">Inicio</a></li><li><a href="annadirTarea.html">Añadir tareas</a></li><li id="redondeadoDerecho"><a href="listaTareas.html">Lista tareas</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="contenido">
+			<main>
+			<h3>¿Qué es un Gestor de Tareas?</h3>
+			<p>Un gestor de tareas es una lista avanzada donde podemos añadir diferentes acciones que vamos a hacer en los próximos días. En nuestro caso, este gestor está enfocado para añadir todos los ejercicios, prácticas, trabajos y proyectos que tengamos que hacer y entregar en los siguientes días.</p>
+			<h3>¿Por qué usar este Gestor de Tareas?</h3>
+			<p>Gracias a nuestro gestor de tareas, siempre estarás informado de los eventos que se acercan. Además, este gestor incorpora funciones nuevas con respecto a otros: notificaciones en nuestro móvil, posibilidad de ver los eventos sin tener conexión a Internet, así como varias utilidades gráficas que servirán de ayuda a la hora de visionar dichos eventos.</p>
+			<h3>¿A qué esperas para usar este gestor?</h3> 
+			<h2>¡Es Gratis!</h2>
+			</main>
+			<aside>
+				<div id="calendario">
+				  <div id="anterior" onclick="mesantes()"></div>
+				  <div id="posterior" onclick="mesdespues()"></div>
+				  <h5 id="titulos"></h5>
+				  <table id="diasc">
+				    <tr id="fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				    <tr id="fila1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				    <tr id="fila2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				    <tr id="fila3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				    <tr id="fila4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				    <tr id="fila5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				    <tr id="fila6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				  </table>
+				  
+				  
+				</div>
+
+				<div id="buscarTarea">
+					<i class="fa fa-search" aria-hidden="true" id="iconoLupa"></i><input type="text" id="buscar" placeholder="Buscar Tarea...">
+
+				</div>
+			</aside>
+			<footer>Práctica 11 - Realizada por Óscar Heredia Tartajo</footer>
+		</div>
+	</div>
+</body>
+</html>
