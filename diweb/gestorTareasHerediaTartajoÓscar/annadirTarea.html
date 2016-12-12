@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestor de Tareas. Óscar Heredia Tartajo</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/calendario.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/annadirTarea.css">
+	<link href="favicon.ico" type="image/x-icon" rel="icon" /><link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<script type="text/javascript" src="js/calendario.js"></script>
+	
+  	
+</head>
+<body>
+	
+	<div id="container">
+	
+			<header>
+				<div id="logo"><img src="img/folder.svg" alt=""></div>
+				<h1>Gestor de Tareas</h1>
+				<div id="login">
+					<label>Usuario</label><input type="text">
+					<label>Contraseña</label><input type="password">
+					<input type="submit" value="Login" id="botonLogin">
+				</div>
+			</header>
+		<div id="contenedorMenu">
+			
+			<nav id="menuprincipal">
+				<ul>
+					<li id="redondeadoIzquierdo"><a href="index.html">Inicio</a></li><li class="selected"><a href="annadirTarea.html">Añadir tareas</a></li><li id="redondeadoDerecho"><a href="listaTareas.html">Lista tareas</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="contenido">
+			<main>
+			<h3>Añadir Tarea</h3>
+			<form>
+			
+					<p><label>Título: </label>
+					<input type="text" placeholder="Introduzca el título de la tarea" required></p>
+				
+					<p><label>Módulo: </label>
+					<select required>
+						<option value="">-ELIGE-</option>
+						<option value="diweb">DIWEB</option>
+						<option value="dawes">DAWES</option>
+						<option value="dawec">DAWEC</option>
+						<option value="daweb">DAWEB</option>
+						<option value="hlc">HLC</option>
+
+					</select></p>
+				
+					<p><label>Descripción: </label>
+					<textarea placeholder="Describa brevemente la tarea" required maxlength="100"></textarea>
+					</p>
+
+					<p><label>Fecha de envío: </label>
+					<input type='date' placeholder="¿Cuándo se ha enviado la tarea?" required pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d"></p>
+
+					<p><label>Fecha de entrega: </label>
+					<input type='date' placeholder="¿Qué día hay que entregar la tarea?" required pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d"></p>
+
+					<p><label>Duración estimada: </label>
+					<input list="duracion" placeholder="Elija una duración de la lista" required></p>
+					<datalist id="duracion">
+					  <option value="&frac12; hora">
+					  <option value="1 hora">
+					  <option value="1 hora y &frac12;">
+					  <option value="2 horas">
+					  <option value="2 horas y &frac12;">
+					  <option value="3 horas">
+					  <option value="3 horas y &frac12;">
+					  <option value="4 horas">
+					  <option value="4 horas y &frac12;">
+					  <option value="5 horas">
+					  <option value="5 horas y &frac12;">
+					</datalist>
+			
+					<p><label>Otros comentarios: </label>
+					<textarea placeholder="Anote cualquier comentario adicional de la tarea"></textarea></p>
+					<input type="submit" value="Enviar" id="enviar">
+				
+			
+			</form>
+			</main>
+			
+			<footer>Práctica 11 - Realizada por Óscar Heredia Tartajo</footer>
+		</div>
+	</div>
+</body>
+</html>

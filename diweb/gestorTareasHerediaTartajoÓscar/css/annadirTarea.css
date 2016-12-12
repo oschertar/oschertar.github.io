@@ -1,0 +1,67 @@
+main{
+	width: 90%;
+	margin: 20px auto;
+	
+}
+
+#container{
+	text-align: center;
+	padding: 0;
+}
+p{
+	width: 85%;
+	margin: 0 auto;
+}
+main label{
+	font-size: 25px;
+	display: block;
+	width: 30%;
+	text-align: center;
+	margin: 7.5px auto;
+	
+}
+input, select, textarea{
+	font-size: 25px;
+	width: 40%;
+	
+	
+	
+}
+main input{
+	text-align: left;
+	padding: 1px 40px 1px 1px;
+}
+textarea{
+	resize: none;
+	height: 125px;
+	padding: 1px 40px 1px 1px;
+}
+select, #enviar{
+	width: 30%;
+	text-align: center;
+	letter-spacing: 1px;
+  padding: 0;
+}
+
+
+main input[required], main textarea{
+	border-color:green;
+	box-shadow: 1px 1px 10px green;
+}
+
+main input[type=text]:invalid, main textarea:invalid, main input[type=date]:invalid{
+	border-color: red;
+	box-shadow: 0px 0px 25px red;
+	border-radius: 0px 5px 0px 5px;
+}
+
+
+main input[type=text]:valid, main textarea:valid, main input[type=date]:valid {
+    background-image: url(../img/valido.png);
+    background-repeat: no-repeat;
+	  background-position-x: right;
+	  background-position-y: center;
+	  
+}
+
+
