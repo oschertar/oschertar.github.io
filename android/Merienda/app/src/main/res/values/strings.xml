@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Merienda</string>
+    <string name="mensaje">Tengo Hambre</string>
+    <string name="fin">Estoy lleno</string>
+</resources>

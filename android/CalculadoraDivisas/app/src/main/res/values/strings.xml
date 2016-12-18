@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalculadoraDivisas</string>
+    <string name="valor">Introduce una cantidad</string>
+    <string name="total">TOTAL</string>
+</resources>
