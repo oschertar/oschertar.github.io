@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HRV -  Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estiloWeb.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/codigo.js"></script>
+	
+</head>
+<body>
+	<header>
+			
+			<h1>Hoteles Rurales Victoria</h1>
+			<div id="iconoMenu"></div>
+	</header>
+	
+	<nav id="menu">
+		<ul>
+			<li><a href="inicio.html"><i id="iconoInicio" class="fa fa-home" aria-hidden="true"></i>Inicio</a></li><li><a href="palmeras.html"><i class="fa fa-bed" aria-hidden="true"></i>
+			Villa Las Palmeras</a></li><li><a href="alamos.html"><i class="fa fa-bed" aria-hidden="true"></i>
+			Villa Los Álamos</a></li><li><a href="robles.html"><i class="fa fa-bed" aria-hidden="true"></i>
+			Villa Los Robles</a></li>
+			
+		</ul>
+	</nav>
+	<div id="container">
+		<aside>
+				<div id="filtro">
+					<h2>Filtro</h2>
+					<h3>Nº Habitaciones</h3>
+					<p><input type="radio" name="numeroHabitaciones"> <label>1 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>2 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>3 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>4 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>5 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>6 habitaciones</label></p>
+					<p><input type="radio" name="numeroHabitaciones"> <label>7 habitaciones</label></p>
+
+				
+				
+					<h3>Servicios</h3>
+					<div id="filtroServicios">
+						<p><input type="checkbox"> <label>Wifi gratuito</label></p>
+						<p><input type="checkbox"> <label>Cochera privada</label></p>
+						<p><input type="checkbox"> <label>Chiminea incorporada</label></p>
+						<p><input type="checkbox"> <label>Zonas cercanas senderismo</label></p>
+						<p><input type="checkbox"> <label>Alquiler de bicicletas</label></p>
+						<p><input type="checkbox"> <label>Pistas de tierra cercanas</label></p>
+						<p><input type="checkbox"> <label>Pistas de padel y tenis</label></p>
+						<p><input type="checkbox"> <label>Golf</label></p>
+						<p><input type="checkbox"> <label>Gimnasio</label></p>
+						<p><input type="checkbox"> <label>Piscina</label></p>
+						<p><input type="checkbox"> <label>Restaurante</label></p>
+					
+					</div>
+
+					<h3>Rango de precios</h3>
+					<p><input type="radio" name="precioNoche"> <label>De 20€/noche 30€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 30€/noche 40€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 40€/noche 50€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 50€/noche 60€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 60€/noche 70€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 70€/noche 80€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 80€/noche 90€/noche</label></p>
+					<p><input type="radio" name="precioNoche"> <label>De 90€/noche 100€/noche</label></p>
+
+					<h3>Localización</h3>
+					<div id="filtroLocalizacion">
+						<p><input type="radio" name="zonaVilla"> <label>Montaña</label></p>
+						<p><input type="radio" name="zonaVilla"> <label>Playa</label></p>
+						<p><input type="radio" name="zonaVilla"> <label>Rural</label></p>
+					</div>
+				</div>
+				</aside>
+		<main id="paginaPrincipal">
+			
+			<section>
+				<article>
+					<!--<img src="img/hoteles/laspalmeras1.png">-->
+					<h2 id="palmeras">Villa Las Palmeras</h2>
+					<p>Villa situada en los alrededores de la localidad de Aguilar de la Frontera. Su entorno paradisíaco provocará que te sientas en un ambiente único. </p>
+					<p><span>Nº Habitaciones:</span> 3</p>
+					<p>Desde <span class="precioNoche">70€/noche</span></p>
+					<a href="palmeras.html" class="botonReservar">Reservar</a>
+				</article>
+			</section>
+
+			<section>
+				<article>
+					<!--<img src="img/hoteles/losalamos1.png">-->
+					<h2 id="alamos">Villa Los Álamos</h2>
+					<p>Esta villa se encuentra en plena subbética cordobesa. Siente un contacto con la naturaleza especial y descansa como siempre has soñado. Recomendado para familias numerosas.</p>
+					<p><span>Nº Habitaciones:</span> 6</p>
+					<p>Desde <span class="precioNoche">80€/noche</span></p>
+					<a href="alamos.html" class="botonReservar">Reservar</a>
+				</article>
+			</section>
+
+			<section>
+				<article>
+					<!--<img src="img/hoteles/losrobles1.png">-->
+					<h2 id="robles">Villa Los Robles</h2>
+					<p>La villa más barata y recomendable para pequeñas vacaciones. Tómate un descanso con tu pareja en esta villa y disfruta de sus vistas al paraje natural de Villaviciosa-Puente Nuevo.</p>
+					<p><span>Nº Habitaciones:</span> 2</p>
+					<p>Desde <span class="precioNoche">25€/noche</span></p>
+					
+					<a href="robles.html" class="botonReservar">Reservar</a>
+				</article>
+			</section>
+
+		</main>
+	</div>	
+	<footer>
+		<p>2017 Hoteles Rurales Victoria</p><p>© - Todos los Derechos Reservados </p> <p>Óscar Heredia Tartajo</p>
+	</footer>
+</body>
+</html>
+
