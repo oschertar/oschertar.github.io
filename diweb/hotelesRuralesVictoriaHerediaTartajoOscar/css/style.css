@@ -6,7 +6,7 @@ body{
 	background-image: url(../img/fondo.png);
   	background-attachment: fixed;
 	background-repeat: no-repeat;
-	animation: animacion 10s;
+	animation: animacion 12s;
 	animation-iteration-count: infinite;
 	background-size: cover;
 	min-height: 100vh;
@@ -19,12 +19,12 @@ body{
 	
 	33%{
 		background-image: url(../img/fondo1.png);
-		transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.3s ease-in-out;
 
 	}
 	66%{
 		background-image: url(../img/fondo2.png);
-		transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.3s ease-in-out;
 	}
 }
 
@@ -153,7 +153,6 @@ body{
 
 @media only screen and (min-width: 768px) {
 	body{
-		background-size: cover;
 		background-position-x: 60%;
 		
 	}
@@ -169,7 +168,7 @@ body{
 
 @media only screen and (min-width: 1366px) {
 	body{
-		background-size: 100%;
+		background-size: cover;
 		
 		
 	}
