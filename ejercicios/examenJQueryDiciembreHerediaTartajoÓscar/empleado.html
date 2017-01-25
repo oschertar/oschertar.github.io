@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Óscar Heredia Tartajo</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/validar.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/Empleado.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+</head>
+<body>
+  <h1>Óscar Heredia Tartajo</h1>
+  <h2>Examen Diciembre 2016</h2>
+    <form id="registration-form">
+              <p>
+          Nombre
+          <input data-validation="custom" data-validation-regexp="^[A-ZÁÉÍÓÚÑ][a-záéíóúñ]{3,}(\s[A-ZÁÉÍÓÚÑ][a-záéíóúñ]{3,}){1,}$" type="text"
+          data-validation-error-msg="Formato inválido. Se necesita mínimo un nombre y un apellido." data-validation-help="Formato válido: Nombre Apellido Apellido" id="campoNombre">
+        </p>
+        <p>
+        DNI  
+        <input data-validation="letraDNI" type="text" data-validation-error-msg="Formato de DNI inválido." data-validation-help="Formato válido: 12345678-Z" id="campoDNI">
+        </p>
+       
+        <p>
+          Fecha de Nacimiento
+          <input name="birth" data-validation="birthdate"            data-validation-help="Formato válido: dd/mm/yyyy" data-validation-format="dd/mm/yyyy" data-validation-error-msg="Fecha inválida" id="campoFechaNacimiento">
+        </p>
+  
+        <p>
+          <input data-validation="required" 
+           data-validation-error-msg="Debes de aceptar los términos de uso" type="checkbox">
+          Aceptos los <a href="#">términos de uso</a>
+        </p>
+  <p>
+    <input value="Validar" type="submit" id="validar">
+    <input value="Limpiar" type="reset">
+  </p>
+</form>
+
+
+
+
+</body>
+</html>
