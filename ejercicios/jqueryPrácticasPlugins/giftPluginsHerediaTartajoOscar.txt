@@ -1,0 +1,116 @@
+﻿$CATEGORY: $course$/Plugins
+
+//Pregunta 1
+::Plugins::Sobre los plugins en jQuery... {
+	~Realizan cosas más complejas necesarias para resolver necesidades específicas, pero las hacen de manera que puedan utilizarse en el futuro en cualquier parte y por cualquier web.
+	~Son la utilidad que pone jQuery a disposición de los desarrolladores para ampliar las funcionalidades del framework.
+	~Son funciones que permiten extender los elementos jQuery para incorporar nuevos métodos.
+	=Todas son correctas.
+}
+
+//Pregunta 2
+::Plugins::¿Qu&eacute propiedad del objeto jQuery se usa para crear un plugin? {
+	~plugin
+	=fn
+	~sn
+	~pn
+}
+//Pregunta 3
+::Plugins::Acabamos de desarrollar un plugin cuya función es hacer parpadeos y necesitamos nombrarlo. ¿Cu&aacute;l de los siguientes nombres es un nombre v&aacute;lido? {
+	=jquery.parpadea.js
+	~plugin.parpadea.js
+	~fn.parpadea.js
+	~Todas las anteriores son falsas
+}
+
+//Pregunta 4
+::Plugins::¿C&oacute;mo se debe de invocar a un plugin que se llama parpadea sobre un elemento con id = textoParpadeante? {
+	~ $(parpadea).("#textoParpadeante");
+	= $("#textoParpadeante").parpadea();
+	~ $("#textoParpadeante").parpadea;
+	~ $("#textoParpadeante").invoke(parpadea());
+}
+
+//Pregunta 5
+::Plugins::¿Cu&aacute;l es la p&aacute;gina oficial para la descarga de plugins en jQuery? {
+	~http://plugins.jquery.es
+	~http://plugins.jquery.net
+	=http://plugins.jquery.com
+	~http://plugins.jquery.edu
+}
+
+//Pregunta 6
+::Plugins::¿Por qu&eacute; es recomendable devolver siempre "this" en todos los plugins?{
+	~Porque es obligatorio y si no lo devolvemos, siempre dará error.
+	~Todas son falsas.
+	~Gracias a esto conseguimos m&aacute;xima compatibilidad con todos los navegadores.
+	=Gracias a esto poder seguir usando el chaining con otras funciones o plugins.
+}
+
+//Pregunta 7
+::Plugins::Para poder usar correctamente un plugin... {
+	~Debemos de importar el plugin en nuestro documento HTML con las etiquetas plugin.
+	~Debemos de importar el plugin en nuestro documento HTML con las etiquetas jQueryPlugin.
+	=Debemos de importar el plugin en nuestro documento HTML con las etiquetas script.
+	~No hay que hacer nada. jQuery reconoce internamente todos los plugins que estén situados en la misma carpeta que el documento HTML.
+}
+
+//Pregunta 8
+::Plugins::¿A qu&eacute; elemento estamos haciendo referencia cuando usamos la palabra reservada this en un plugin? {
+	~No podemos usar la palabra reservada this en un plugin.
+	=Al objeto jQuery que reciba el m&eacute;todo.
+	~Siempre hace referencia al body del documento HTML.
+	~No hace referencia a ningún elemento.
+}
+
+//Pregunta 9
+::Plugins::¿Qu&eacute; se debe  de usar para iterar sobre todo el conjunto de elementos que se han seleccionado?  {
+	~for tradicional
+	~forEach
+	~for.each
+	=this.each
+}
+
+//Pregunta 10
+::Plugins::¿Qui&eacute;n puede crear un plugin en jQuery? {
+	~El Consorcio World Wide Web (W3C).
+	~Cualquier persona previo pago.
+	~S&oacute;lo empresas autorizadas para ello.
+	=Cualquier persona.
+}
+
+//Pregunta 11
+::Plugins::Gracias a los plugins, podemos extender las funcionalidades del framework jQuery {TRUE}
+
+//Pregunta 12
+::Plugins::La propiedad fn del objeto jQuery nos permite crear un nuevo plugin {TRUE}
+
+//Pregunta 13
+::Plugins::En un plugin, para poder iterar sobre un conjunto de elementos usamos un forEach {FALSE}
+
+//Pregunta 14
+::Plugins::En un plugin, podemos hacer referencia al objeto jQuery con la palabra that {FALSE}
+
+//Pregunta 15
+::Plugins::El m&eacute;todo debe retornar el propio objeto jQuery sobre el que se solicit&oacute; la ejecución del plugin {TRUE}
+
+//Pregunta 16
+::Plugins::Dentro de los plugins, podemos combinar animaciones, efectos, eventos, cambios en el css, etc {TRUE}
+
+//Pregunta 17
+::Plugins::Los plugins, pueden ser aplicados a cualquier objeto jQuery que representa un elemento en el DOM {TRUE}
+
+//Pregunta 18
+::Plugins::En jQuery, todas las funciones son consideradas plugins {FALSE}
+
+//Pregunta 19
+::Plugins::Cuando hablamos de la propiedad fn, en realidad, estamos hablando de prototype {TRUE}
+
+//Pregunta 20
+::Plugins::Los plugins son una utilidad nueva, ya que est&aacute;n implementados a partir de la versión 3.0 de jQuery {FALSE}
+
+
+
+	
+
+
