@@ -1,4 +1,4 @@
-﻿$CATEGORY: $course$/Plugins
+﻿$CATEGORY: $course$/Tema7 jQuery/Plugins jQuery
 
 //Pregunta 1
 ::Plugins::Sobre los plugins en jQuery... {
@@ -9,26 +9,27 @@
 }
 
 //Pregunta 2
-::Plugins::¿Qu&eacute propiedad del objeto jQuery se usa para crear un plugin? {
+::Plugins::Indica la propiedad del objeto jQuery usada para crear un plugin {
 	~plugin
 	=fn
 	~sn
 	~pn
 }
+
 //Pregunta 3
-::Plugins::Acabamos de desarrollar un plugin cuya función es hacer parpadeos y necesitamos nombrarlo. ¿Cu&aacute;l de los siguientes nombres es un nombre v&aacute;lido? {
+::Plugins::Se ha desarrollado un plugin cuya función es hacer parpadeos. Indica el nombre válido {
 	=jquery.parpadea.js
 	~plugin.parpadea.js
 	~fn.parpadea.js
-	~Todas las anteriores son falsas
+	~Todas son falsas
 }
 
 //Pregunta 4
-::Plugins::¿C&oacute;mo se debe de invocar a un plugin que se llama parpadea sobre un elemento con id = textoParpadeante? {
-	~ $(parpadea).("#textoParpadeante");
-	= $("#textoParpadeante").parpadea();
-	~ $("#textoParpadeante").parpadea;
-	~ $("#textoParpadeante").invoke(parpadea());
+::Plugins::Forma de invocar a un plugin que se llama parpadea sobre un elemento con "id = textoParpadeante"? {
+	~ $(parpadea).("\#textoParpadeante");
+	= $("\#textoParpadeante").parpadea();
+	~ $("\#textoParpadeante").parpadea;
+	~ $("\#textoParpadeante").invoke(parpadea());
 }
 
 //Pregunta 5
@@ -49,22 +50,22 @@
 
 //Pregunta 7
 ::Plugins::Para poder usar correctamente un plugin... {
-	~Debemos de importar el plugin en nuestro documento HTML con las etiquetas plugin.
-	~Debemos de importar el plugin en nuestro documento HTML con las etiquetas jQueryPlugin.
-	=Debemos de importar el plugin en nuestro documento HTML con las etiquetas script.
+	~Debemos importar el plugin en nuestro documento HTML con las etiquetas plugin.
+	~Debemos importar el plugin en nuestro documento HTML con las etiquetas jQueryPlugin.
+	=Debemos importar el plugin en nuestro documento HTML con las etiquetas script.
 	~No hay que hacer nada. jQuery reconoce internamente todos los plugins que estén situados en la misma carpeta que el documento HTML.
 }
 
 //Pregunta 8
 ::Plugins::¿A qu&eacute; elemento estamos haciendo referencia cuando usamos la palabra reservada this en un plugin? {
 	~No podemos usar la palabra reservada this en un plugin.
-	=Al objeto jQuery que reciba el m&eacute;todo.
+	=Al objeto que reciba el m&eacute;todo.
 	~Siempre hace referencia al body del documento HTML.
 	~No hace referencia a ningún elemento.
 }
 
 //Pregunta 9
-::Plugins::¿Qu&eacute; se debe  de usar para iterar sobre todo el conjunto de elementos que se han seleccionado?  {
+::Plugins::¿Qu&eacute; se debe usar para iterar sobre todo el conjunto de elementos que se han seleccionado?  {
 	~for tradicional
 	~forEach
 	~for.each
@@ -80,10 +81,15 @@
 }
 
 //Pregunta 11
-::Plugins::Gracias a los plugins, podemos extender las funcionalidades del framework jQuery {TRUE}
+::Plugins::Forma de invocar a un plugin que se llama parpadea sobre un elemento con "class = textoParpadeante"? {
+	~ $(parpadea).(".textoParpadeante");
+	~ $(".textoParpadeante".parpadea();
+	~ $(".textoParpadeante").parpadea;
+	= Todas son falsas
+}
 
 //Pregunta 12
-::Plugins::La propiedad fn del objeto jQuery nos permite crear un nuevo plugin {TRUE}
+::Plugins::La propiedad sn del objeto jQuery nos permite crear un nuevo plugin {FALSE}
 
 //Pregunta 13
 ::Plugins::En un plugin, para poder iterar sobre un conjunto de elementos usamos un forEach {FALSE}
@@ -92,7 +98,7 @@
 ::Plugins::En un plugin, podemos hacer referencia al objeto jQuery con la palabra that {FALSE}
 
 //Pregunta 15
-::Plugins::El m&eacute;todo debe retornar el propio objeto jQuery sobre el que se solicit&oacute; la ejecución del plugin {TRUE}
+::Plugins::El m&eacute;todo debe retornar el propio objeto jQuery sobre el que se solicit&oacute; la ejecuci&oacute;n del plugin {TRUE}
 
 //Pregunta 16
 ::Plugins::Dentro de los plugins, podemos combinar animaciones, efectos, eventos, cambios en el css, etc {TRUE}
@@ -104,7 +110,7 @@
 ::Plugins::En jQuery, todas las funciones son consideradas plugins {FALSE}
 
 //Pregunta 19
-::Plugins::Cuando hablamos de la propiedad fn, en realidad, estamos hablando de prototype {TRUE}
+::Plugins::Cuando hablamos de la propiedad sn, en realidad, estamos hablando de prototype {FALSE}
 
 //Pregunta 20
 ::Plugins::Los plugins son una utilidad nueva, ya que est&aacute;n implementados a partir de la versión 3.0 de jQuery {FALSE}
