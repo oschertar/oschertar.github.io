@@ -1,0 +1,702 @@
+.morphext > .animated {
+    display: inline-block;
+}
+
+.js-rotating{
+	color:#2980B9;
+	text-shadow: 1px 1px 1px black;
+}
+
+.help-block, .form-error{
+	color: red;
+}
+
+#documentacion{
+	margin: 2% auto;
+	display: inline;
+}
+main .documentacion{
+	width: 90%;
+	margin: 2% auto;
+	
+}
+
+
+
+body{
+	font-family: 'Mirza', cursive;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #F5F6CE;
+}
+
+
+
+header{
+	background-color: #2980b9;
+  	padding-right: 0;
+	border-bottom: 2px solid white;
+}
+
+header h1{
+	margin: 1% auto;
+	padding: 1%;
+	font-size: 23px;
+	display: inline-block;
+	width: 85%;
+	vertical-align: top;
+	text-shadow: 2px 2px 2px black;
+	
+}
+
+header #iconoMenu{
+	width: 2em;
+	height: 2em;
+	background-image: url(../img/menu.png);
+	background-size: 100%;
+	display: inline-block;
+	margin-top: 1%;
+	
+}
+
+
+
+aside{
+	display: none;
+}
+
+
+main #paginas{
+	margin: 2% auto;
+	width: 50%;
+	text-align: center;
+}
+
+main #paginas a{
+	background-color: #2980B9;
+	display: inline-block;
+	line-height: 2em;
+	width: 10%;
+	color: white;
+	text-decoration: none;
+	transition: 1s all;
+
+}
+
+main #paginas a:hover{
+	background-color: #7BAFC1;
+	text-shadow: 0px 1px 0px black, 1px 0px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+	transition: 1s all;
+}
+
+
+
+nav{
+	display: none;
+	width: 100%;
+  	
+	
+}
+
+nav ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	list-style: none;
+	background-color: white;
+	border-top: 2px solid #D8D8D8; 
+	border-bottom: 2px solid #D8D8D8; 
+}
+nav ul li{
+	border-bottom: 1px solid #D8D8D8;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	width: 95%;
+	color: #2980b9;
+	text-shadow: 0px 1px 0px black, 1px 0px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+	font-size: 1.75em;
+	padding: 0.25em;
+	padding-left: 0.5em;
+	transition: 1s all;
+	
+}
+
+nav ul li a:hover{
+	color: white;
+	transition: 1s all;
+	background-color: #2980b9;
+
+}
+nav ul #iconoInicio{
+	margin-right: 0.45em;
+}
+
+
+
+section article{
+	background-color: #2980b9;
+	text-align: center;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 0.75em;
+	box-shadow: 2px 2px 5px black;
+	padding-bottom: 1%;
+}
+
+#paginaPrincipal section article{
+	padding-bottom: 0;
+}
+#paginaPrincipal #formularioBuscar{
+	width: 80%;
+	margin: 2% auto;
+	text-align: center;
+}
+
+#paginaPrincipal #formularioBuscar input[type=submit]{
+	box-shadow: 2px 2px 5px black;
+}
+
+#paginaPrincipal #formularioBuscar input[type=text]{
+	border: 2px inset #7f8c8d;
+}
+
+
+section article p{
+	text-align: justify;
+	width: 85%;
+	margin: 0.75em auto;
+	text-shadow: 1px 1px 1px black;
+	
+}
+
+section article h2{
+ 	padding: 0;
+	margin: 0;
+	padding-bottom: 0.2em;
+	border-bottom: 2px solid white;
+	text-shadow: 1px 1px 2px black;
+	width: 100%;
+	padding-top: 5em;
+	background-size: cover;
+	
+	
+}
+
+section .botonReservar{
+	background-color: #b95c29;
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+	transition: 1s all;
+	display: block;
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+section .botonReservar:hover{
+	background-color: #b93829;
+	transition: 1s all;
+	
+}
+
+section .precioNoche{
+ font-size: 2.25em;
+}
+
+footer{
+	background-color: #2980b9;
+	padding: 1em;
+	text-align: center;
+
+
+}
+
+footer p{
+	margin: 0.2em;
+	
+}
+
+footer p a{
+	color: white;
+	font-size: 30px;
+}
+
+#alamos{
+	background-image: url('../img/hoteles/losalamos1.png');
+}
+
+#palmeras{
+	background-image: url('../img/hoteles/laspalmeras1.png');
+}
+
+#robles{
+	background-image: url('../img/hoteles/losrobles1.png');
+}
+
+
+
+section article .tituloArticulos{
+	padding-top: 0.25em;
+	background-color: #B95C29;
+	line-height: 1.75em;
+}
+
+section .servicios ul{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding: 1em;
+	list-style: none;
+	
+}
+
+section .servicios ul li{
+	padding-bottom: 0.75em;
+}
+
+
+section .servicios ul li i{
+	width: 10%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section .fotos .imagenesReserva{
+	width: 85%;
+	display: block;
+	margin: 2% auto;
+	border-radius: 5px;
+}
+section .localizacion{
+	padding: 0;
+
+}
+section .localizacion iframe {
+	height: 15em;
+	width: 99%;
+
+		
+}
+
+section .informacionPagos i{
+	font-size: 2.5em;
+	margin: 0.10em;
+}
+
+section .seccionesReservas form{
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+section .seccionesReservas form p{
+	width: 70%;  
+ 	margin: auto; 
+	text-align: center;
+	
+}
+
+section .seccionesReservas form p label{
+	width: 100%;
+	display: block;
+}
+
+section .seccionesReservas form p input{
+	width: 85%;
+}
+
+section .seccionesReservas form p #labelCondiciones{
+	display: inline;
+	width: 30%;
+}
+
+section .seccionesReservas form p #condiciones{
+	width: 10%;
+}
+
+
+
+
+section article input[type=text]:invalid, section article input[type=date]:invalid,section article input[type=email]:invalid{
+	box-shadow: 0px 0px 10px red;
+	border: 3px inset #7f8c8d;
+	
+
+	
+	
+}
+
+
+
+section article input[type=text]:valid, section article input[type=date]:valid,section article input[type=email]:valid{
+	box-shadow: 1px 1px 10px lightgreen;
+	border: 3px inset lightgreen;
+	background-color: white;
+	
+	
+}
+
+.seccionSobreNosotros, #mainAbout{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#mainAbout{
+	margin-bottom: 3%;
+}
+
+
+
+#mainAbout .informacionPagos i{
+	width: 10%;
+	margin: 0 auto;
+
+}
+
+#mainAbout .informacionPagos #otros{
+	font-size: 1.5em;
+}
+
+#mainAbout .informacionPagos span{
+	text-align: justify;
+	display: block;
+	padding: 7%;
+}
+
+#mainAbout .contacto ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	margin-left: 6%;
+}
+
+#mainAbout .contacto ul li i{
+	margin: 1% 6%;
+	width: 5%;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+#mainAbout .contacto ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	header #iconoMenu{
+		display: none;
+	}
+	header h1{
+		text-align: center;
+		width: 95%;
+		font-size: 2em;
+	}
+
+	main .documentacion{
+		width: 60%;
+	}
+	
+	header{
+		position: relative;
+	}
+	
+	nav{
+		display: block;
+		color: black;
+		position: relative;
+		top: 0;
+		width: 100%;
+		
+		
+	}
+	nav ul{
+		border: 0;
+		background-color: rgba(41,128,185,0.6);
+		width: 100%;
+		text-align: center;
+		
+	}
+	nav ul li{
+		display: inline-block;
+		width: 25%;
+		border: 0;
+
+	}
+	
+	nav ul li a .fa, nav ul li a .material-icons{
+		display: none;
+	}
+	
+	nav ul li a{
+		font-size: 1.25em;
+		text-align: center;
+		border-bottom: 2px solid #2980B9;
+		width: 100%;
+		color: white;
+		padding: 0;
+		padding-bottom: 0.25em;
+
+	}
+	
+	nav ul li a:hover{
+		text-shadow: 1px 1px 1px black;
+		border-bottom: 2px solid #B95C29;
+		
+	}
+	
+	main{
+		margin-top: 1%;
+		padding-top: 0;
+		
+	}
+	#paginaPrincipal #formularioBuscar{
+		display: none;
+	}
+	
+	.seccionesInformacionReservas article{
+		display: block;
+		margin: 1%;
+
+								
+	}
+	section .servicios{
+		height: 410px;
+	}
+	
+	.seccionesInformacionReservas .informacionVilla{
+		width: 60%;
+		float: left;
+		height: 410px;
+	}
+	
+	.seccionesInformacionReservas .servicios{
+		width: 35%;
+		float: right;
+	}
+	
+	.seccionesInformacionReservas .fotos{
+		width: 35%;
+		float: right;
+		
+	}
+	
+	.seccionesInformacionReservas .localizacion{
+		width: 60%;
+		float: left;
+	}
+	
+	.seccionesInformacionReservas .opiniones{
+		float: right;
+		width: 35%;
+		
+	}
+	
+	.seccionesInformacionReservas .informacionPagos{
+		float: right;
+		width: 35%;
+		
+	}
+	
+	.seccionesInformacionReservas .seccionesReservas{
+		width: 60%;
+		float: left;
+				
+	}
+	
+	.seccionesInformacionReservas .seccionesReservas form input{
+		margin: 2.55%;
+		width: 60%;
+	
+	}
+	.seccionesInformacionReservas .seccionesReservas form{
+		width: 100%;
+	}
+
+	.seccionesInformacionReservas .seccionesReservas form p{
+		width: 100%;
+	}
+
+	.seccionesInformacionReservas .seccionesReservas .reservar{
+		background-color: #b95c29;
+		text-decoration: none;
+		color: white;
+		padding: 1em;
+		transition: 1s all;
+		display: block;
+		margin: 0 auto;
+		font-size: 1em;
+	
+	}
+
+	.seccionesInformacionReservas .seccionesReservas .reservar:hover{
+		background-color: #b93829;
+		transition: 1s all;
+	
+	}
+
+	section article h2{
+	 	background-position-y: 25%;
+	 	font-size: 1.75em;	
+	}
+	
+	footer{
+		clear: both;
+	}
+	
+	#mainAbout .contacto ul li i{
+		margin: 1%;
+		
+	
+	}
+
+
+	#mainAbout{
+		padding: 1%;
+		width: 80%;
+		
+
+	}
+
+	#mainAbout .seccionSobreNosotros, #mainAbout .pagos{
+		display: inline-block;
+		
+	}
+	
+	#mainAbout .seccionSobreNosotros{
+		width: 40%;
+		vertical-align: top;
+	}
+
+	#mainAbout .pagos{
+		width: 55%;
+		
+	}
+
+	#mainAbout .localizacion{
+		height: 400px;
+	}
+
+	#mainAbout .localizacion iframe{
+		height: 350px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	nav ul{
+		font-size: 1.3em;
+		line-height: 2em;
+	}
+	nav ul li{
+		width: 15%;
+	}
+	aside{
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 1%;
+		width: 20%;
+	}
+
+	main{
+		display: inline-block;
+		width: 55%;
+		padding-bottom: 5%;
+
+
+	}
+
+	#container{
+		text-align: center;
+	}
+	
+	#filtro h2{
+		padding: 0;
+		padding-bottom: 0.20em;
+		margin: 0;
+		font-size: 2.30em;
+		width: 100%;
+		border-bottom: 4px solid #2980B9;
+		background-color: #B95C29;
+		text-align: center;
+		text-shadow: 0px 1px 0px black, 1px 0px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+
+	}
+
+	#filtro{
+		background-color: #7BAFC1;
+		box-shadow: 2px 2px 5px black;
+		padding-bottom: 1%;
+		text-align: justify;
+		
+	}
+
+	#filtro h3{
+		margin: 0;
+		font-size: 1.75em;
+		text-shadow: 0px 1px 0px black, 1px 0px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+		padding-left: 1.25em;
+
+
+	}
+
+	
+
+	
+
+	#filtro p{
+		text-shadow: 0px 1px 0px black, 1px 0px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+		font-size: 1.05em;
+		padding-left: 2.15em;
+	}
+
+	
+	#mainReservas{
+		width: 75%;
+		margin: 0 auto;
+		display: block;
+	}
+
+
+	
+	.seccionesInformacionReservas .fotos{
+		width: 60%;
+		float: left;
+		
+		
+	}
+	
+	.seccionesInformacionReservas .seccionesReservas{
+		width: 35%;
+		float: right;
+
+				
+	}
+	.seccionesInformacionReservas .localizacion{
+		width: 35%;
+		float: right;
+		
+				
+	}
+
+	.seccionesInformacionReservas .informacionPagos{
+		width: 98%;
+		
+				
+	}
+	
+	#mainAbout{
+		
+		display: block;
+	}
+
+
+}	
+
