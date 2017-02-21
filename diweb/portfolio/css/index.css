@@ -1,0 +1,13 @@
+body{
+	background-image: url(../img/fondoInicio.png);
+	background-size: 300%;
+	background-repeat: no-repeat;
+	background-position-x: center;
+}
+
+/*#bajar{
+	
+	width: 20%;
+	height: 800px;
+	margin: 0 auto;
+}*/

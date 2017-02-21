@@ -1,0 +1,481 @@
+/* Fuentes */
+@font-face{
+	font-family: ShakeItOff;
+	src: url(fonts/KGShakeitOff.ttf) format('truetype');
+}
+
+html{
+	max-height: 1000px !important;
+
+}
+body{
+	font-family: ShakeItOff;
+	background-color: rgb(251,170,57);
+	//background: webkit-linear-gradient(left, #FBAA39, #F99D28);
+	
+	background-image: url(../img/fondo.png);
+	background-size: 250%;
+	background-position-y: 765px;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	
+	width: 100%;
+	overflow-x:hidden;
+
+}
+
+#pisoAscensor{
+	width: 45%;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+#pisoAscensor #piso{
+	z-index: 3;
+	position: absolute;
+	top:0;
+}
+
+#pisoAscensor #ascensor{
+	position: absolute;
+	z-index:2;
+	top:0;
+	
+}
+
+#pisoAscensor #fondoAscensor{
+	position: absolute;
+	z-index:1;
+	top:0;
+}
+
+#pisoAscensor, main{
+	display: inline-block;
+}
+
+main{
+	vertical-align: top;
+	width: 100%;
+}
+
+main #sobreMi{
+	z-index:5;
+	top: 125px;
+	background-image: url(../img/nube1.png);
+	background-position-x: 12.5px;
+	background-size: 105% 100%;
+	width: 70%;
+}
+
+main #nubeGenerica1{
+	position: absolute;
+	z-index: 0;
+	right: 0;
+	
+}
+
+main #proyectos{
+	background-image: url(../img/nube2.png);
+	background-size: 80% 80%;
+	background-position-x: 50%;
+	z-index: 3;
+	right: -150px;
+	top: 700px;
+	
+}
+
+
+main #conocimientos{
+	top: 300px;
+	z-index: 5;
+	right: 0;
+	background-image: url(../img/nube4.png);
+	background-size: 120% 90%;
+	width: 75%;
+	
+
+
+}
+
+main #otros{
+	top: 525px;
+	z-index: 5;
+	background-image: url(../img/nube3.png);
+	background-size: 100% 100%;
+}
+
+main #casasRurales{
+	top: 825px;
+	z-index: 5;
+	background-image: url(../img/nube4.png);
+	background-size: 90% 85%;
+	
+
+}
+
+main #gestorTareas{
+	top: 1025px;
+	z-index: 5;
+	background-image: url(../img/nube3.png);
+	background-size: 100% 100%;
+	background-position-y: -10px;
+	text-align: center;
+	right: -250px;
+	
+
+}
+
+main #gestorTareas h2{
+	margin: 1% auto;
+}
+
+main #casasRurales h2, main #gestorTareas h2{
+	width: 60%;
+	font-size: 10px;
+}
+
+main .informacion img{
+	width: 70%;
+	height: 10%;
+	transition: 1s all;
+}
+
+
+
+main .informacion img:hover{
+	opacity: 0.7;
+	transition: 1s all;
+}
+
+
+main .informacion{
+	position:absolute;
+	background-size: 100%;
+	width: 65%;
+	padding: 15%;
+	background-repeat: no-repeat;
+}
+
+
+main .informacion h2{
+	font-size: 15px;
+	text-align:center;
+	width: 100%;
+	color: #FBAA39;
+}
+
+main .informacion p{
+	font-size: 12px;
+	width: 95%;
+	text-align: center;
+}
+
+main .informacion .contenedor{
+	font-size: 10px;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+	margin-bottom: 1%;
+
+}
+
+main #otros .contenedor{
+	width: 80%;
+	margin: 1% auto;
+}
+
+main section .contenedor div .texto{
+	width: 240px;
+	text-align: center;	
+	
+}
+
+main #otros .contenedor div .texto{
+	width: 170px;
+}
+
+main .informacion .contenedor > div{
+	background-color: #6DBEF5;
+}
+
+main .informacion .contenedor #html{
+	width: 85%;
+}
+main .informacion .contenedor #css{
+	width: 85%;
+}
+
+main .informacion .contenedor #php{
+	width: 75%;
+}
+
+main .informacion .contenedor #java{
+	width: 85%;
+}
+
+main .informacion .contenedor #js{
+	width: 65%;
+}
+
+main .informacion .contenedor #jquery{
+	width: 50%;
+}
+
+main .informacion .contenedor #python{
+	width: 30%;
+}
+
+main .informacion .contenedor #android{
+	width: 75%;
+}
+
+main .informacion .contenedor #apache{
+	width: 65%;
+}
+
+main .informacion .contenedor #ubuntu{
+	width: 60%;
+}
+
+main .informacion .contenedor #tomcat{
+	width: 30%;
+}
+@media screen and (min-width: 400px){
+	main section .contenedor div .texto{
+		width: 300px;
+	}
+	main #otros .contenedor div .texto{
+		width: 205px;
+	}
+
+}
+@media screen and (min-width: 500px) {
+	body{
+		background-size: cover;
+	}
+	main .informacion{
+		width: 50%;
+	}
+	
+
+	main section .contenedor div .texto{
+		width: 145px;
+	}
+
+	main #otros .contenedor div .texto{
+		width: 160px;
+	}
+
+	main #sobreMi{
+		width: 50%;
+		background-size: 95%;
+		padding: 10%;
+		background-position-x: 25px;
+	}
+	main #sobreMi p{
+		width: 65%;
+		margin: 0 auto;
+		
+	}
+	main #conocimientos{
+		width: 70%;
+		background-size: 90% 100%;
+		background-position-x: 50px;
+		background-position-y: -10px;
+		padding: 7.5%;
+	}
+	main .informacion article .contenedor, main #conocimientos article h2{
+		width: 40%;
+		margin: 1% auto;
+	}
+	
+	main #otros{
+		width: 40%;
+		background-size: 70%;
+		background-position: center;
+	}
+	
+	main #casasRurales, main #gestorTareas{
+		width: 40%;
+		background-size: 100%;
+		background-position: center;
+		
+	}
+	
+	
+}
+
+@media screen and (min-width: 620px) {
+	 main #sobreMi{
+		width: 40%;
+		background-size: 85%;
+		padding: 10%;
+		background-position-x: 50px;
+		background-position-y: 20px;
+		 
+		 
+	}
+	
+	main #conocimientos{
+		width: 50%;
+		background-size: 90% 90%;
+		background-position-x: 50px;
+		background-position-y: -10px;
+		padding: 7.5%;
+	}
+	
+	main #otros{
+		top: 475px;
+	}
+	
+	main #casasRurales, main #gestorTareas{
+		width: 30%;
+		background-size: 90% 80%;
+		background-position-x: 20px;
+		background-position-y: 20px;
+		padding: 12.5%;
+		
+		
+	}
+	
+	main #casasRurales h2{
+		font-size: 14px;
+		width: 100%;
+		text-align: left;
+		
+	}
+	
+	main #gestorTareas h2{
+		font-size: 14px;
+		
+	}
+	main #proyectos{
+		width: 30%;
+		background-size: 50%;
+		background-position: 0;
+		background-position-x: 95px;
+		
+	}
+	
+	main section .contenedor div .texto{
+		width: 130px;
+	}
+	main #otros .contenedor div .texto{
+		width: 210px;
+	}
+}
+
+@media screen and (min-width: 720px){
+	body{
+		background-size: 300% 200%;
+		background-position-y: 0;
+	}
+	main section .contenedor div .texto, main #otros .contenedor div .texto{
+		width: 240px;
+	}
+	
+	main #conocimientos .contenedor {
+		width: 65%;
+
+	}
+	main #sobreMi p{
+		width: 55%;
+	}
+	
+	main #conocimientos{
+		top: 450px;
+	}
+	
+	main #otros{
+		top: 650px;
+	}
+	
+	main #proyectos{
+		top:915px;
+	}
+	main #gestorTareas{
+		top: 1400px;
+		
+	}
+	
+	main #casasRurales{
+		top: 1150px;
+		width: 27.5%;
+		background-size: 90%;
+		background-position: 0;
+		background-position-x: 20px;
+		
+	}
+	
+	
+	
+	
+}
+
+@media screen and (min-width: 900px){
+	main section .contenedor div .texto, main #otros .contenedor div .texto{
+		width: 295px;
+	}
+	
+	main #sobreMi{
+		background-position: center;
+	}
+	
+	main #proyectos{
+		background-position: center;
+	}
+	main #casasRurales{
+		top: 1100px;
+	}
+	main #gestorTareas{
+		top: 1300px;
+	}
+}
+
+@media screen and (min-width: 1030px){
+	main #sobreMi{
+		width: 20%;
+		background-position: center;
+		padding: 10%;
+		
+	}
+	
+	main #sobreMi p{
+		width: 70%;
+		
+	}
+}
+
+
+@media screen and (min-width: 1250px){
+	main #sobreMi{
+		width: 10%;
+		padding: 5% 10%;
+
+		
+	}
+	
+	main #sobreMi p{
+		width: 100%;
+	}
+
+	main #conocimientos, main #otros{
+		width: 25%;
+		background-size: 85% 70%;
+		background-position-y: 35px;
+		background-position-x: 80px;
+		right: 200px;
+		padding: 7%;
+	}
+	
+
+	main section .contenedor div .texto, main #otros .contenedor div .texto{
+		width: 220px;
+	}
+}
+	
+	
