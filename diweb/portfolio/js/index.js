@@ -1,5 +1,6 @@
 $(function(){
-
+	var my_image = new Image();
+	my_image.src = 'img/fondoAnimado.gif';
 	$("#bajar").on("click", function(event){
 		event.preventDefault();
 

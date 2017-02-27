@@ -1,4 +1,5 @@
 $(function(){
+	
 	anchoPantalla = $(window).width();
 	alturaScroll =document.body.scrollHeight;
 	alturaVentana = window.innerHeight;
