@@ -1,13 +1,59 @@
-body{
-	background-image: url(../img/fondoInicio.png);
-	background-size: 300%;
-	background-repeat: no-repeat;
-	background-position-x: center;
+/* Fuentes */
+@font-face{
+	font-family: Digital;
+	src: url(fonts/digital-7.ttf) format('truetype');
 }
 
-/*#bajar{
+
+
+body{
+	background-image: url(../img/fondoInicio.jpg);
+	background-size: 320%;
+	background-repeat: no-repeat;
+	background-position-x: center;
 	
-	width: 20%;
-	height: 800px;
-	margin: 0 auto;
-}*/
+}
+
+
+
+
+
+#bajar{
+	background-image: url(../img/bajar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+	position:absolute;
+	transform: rotate(180deg);
+	
+}
+
+@media screen and (min-width: 450px){
+	body{
+		background-size: 200%;	
+	}
+	
+}
+
+@media screen and (min-width: 650px){
+	body{
+		background-size: 140%;	
+	}
+	
+}
+
+@media screen and (min-width: 775px){
+	body{
+		background-size: 110%;	
+	}
+	
+}
+
+@media screen and (min-width: 980px){
+	body{
+		background-size: 100%;	
+	}
+	
+}
