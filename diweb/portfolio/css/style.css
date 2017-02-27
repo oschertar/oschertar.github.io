@@ -458,6 +458,8 @@ main .informacion .contenedor #tomcat{
 	#pisoAscensor #ascensor{
 		top: 125px;
 	}
+
+	
 	main #sobreMi{
 		width: 10%;
 		padding: 5% 10%;
@@ -477,7 +479,11 @@ main .informacion .contenedor #tomcat{
 		right: 200px;
 		padding: 7%;
 	}
-	
+	main #otros{
+		width: 20%;
+		padding: 5%;
+		background-position: center;
+	}
 
 	main section .contenedor div .texto, main #otros .contenedor div .texto{
 		width: 220px;
