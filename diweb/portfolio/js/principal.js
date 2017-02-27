@@ -4,7 +4,7 @@ $(function(){
 	alturaVentana = window.innerHeight;
 	$(window).scroll(function(){
 		valorScrollActual = window.pageYOffset;
-	   	valorScroll = -(valorScrollActual / (alturaScroll-alturaVentana)) * 100;
+	   	valorScroll = (valorScrollActual / (alturaScroll-alturaVentana)) * 100;
 
 		if(anchoPantalla < 720){
 			$("#ascensor").css({ top: (window.pageYOffset)*1.31 + "px"});
